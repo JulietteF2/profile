@@ -1,0 +1,110 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background: #F6F6F6;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.description {
+  width: 500px;
+  padding: 30px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+h1 {
+  font-weight: 500;
+  color: #23B7D9;
+  margin: 10px auto;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px gray;
+  margin-top: 5px;
+}
+
+
+h3, h5 {
+  font-weight: 400;
+  color: #117DBB;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 5px auto;
+}
+
+p {
+  font-weight: 200;
+  color: #595A5C;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.socials li {
+  display: inline;
+  float: center;
+  margin: 10px 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #8BC3D9;
+  font-size: 20px;
+}
+
+.socials a:hover {
+  color: #B6E1F2;
+}
+
+.homepage-button {
+  margin: 20px auto;
+}
+
+.homepage-button a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  background: #117DBB;
+  padding: 4px 8px 5px 8px;
+  border-radius: 4px;
+}
+
+.homepage-button a:hover {
+  background: #B6E1F2;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .description {
+    width: 350px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .description {
+    width: 210px;
+  }
+}
